@@ -1,0 +1,225 @@
+<!-- Author: Cheng Jin Rong, Admin No. 261126U --> 
+<head>
+    <title>Order Now!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('pngtree-western-food-daytime-food-and-gourmet-photography-photography-map-with-pictures-image_803946.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 30px 15px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: #fcfaf8;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+
+        h1, h2 {
+            color: #b84a12;
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 6px;
+            border: 1px solid #000000;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: flex;
+            gap: 15px;
+        }
+
+        .row > div {
+            flex: 1;
+        }
+
+        .radio-group {
+            margin-top: 8px;
+        }
+
+        .radio-group label {
+            display: inline-block;
+            font-weight: normal;
+            margin-right: 15px;
+        }
+
+        button, input[type="submit"], input[type="reset"] {
+            margin-top: 15px;
+            padding: 10px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            background: #e93313;
+            color: white;
+        }
+
+        input[type="reset"] {
+            background: #6c757d;
+            margin-left: 8px;
+        }
+
+        hr {
+            margin: 25px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>W Food</h1>
+        <form action="thankyou.html" method="get">
+            <label for="custname">Your Name:</label>
+            <input type="text" name="custname" id="custname" required>
+
+    <div class="row">
+    <div> 
+            <label for="phone">Phone Number:</label>
+            <span>+65</span>
+            <input type="tel" name="phone" id="phone" required maxlength="8" title="Please enter a valid 8-digit Singapore number.">
+    </div>
+    <div>
+            <label for="email">E-mail:</label><br>
+            <input type="email" name="email" id="email" required placeholder="you@example.com">
+    </div>
+    </div>
+
+    <div class="row">
+    <div>
+      <details>
+         <summary>Main Meals</summary>
+         <table>
+               <tr>
+                  <td><input type="checkbox" name="meal" value="Signature Burger" required></td>
+                  <td><img src="SignatureBurger.jpg" alt="Signature Burger" width="100" height="100"></td>
+                  <td>Signature Burger</td>
+               </tr>
+               <tr>
+                  <td><input type="checkbox" name="meal" value="Chicken Chop"></td>
+                  <td><img src="ChickenChop.jpg" alt="Chicken Chop" width="100" height="100"></td>
+                  <td>Chicken Chop</td>
+               </tr>
+               <tr>
+                  <td><input type="checkbox" name="meal" value="Grilled Chicken Wrap"></td>
+                  <td><img src="GrilledChickenWrap.jpg" alt="Grilled Chicken Wrap" width="100" height="100"></td>
+                  <td>Chicken Wrap</td>
+               </tr>
+               <tr>
+                  <td><input type="checkbox" name="meal" value="Loaded Fries"></td>
+                  <td><img src="LoadedFries.jpg" alt="Loaded Fries" width="100" height="100"></td>
+                  <td>Loaded Fries</td>
+               </tr>
+               <tr>
+                  <td><input type="checkbox" name="meal" value="Spaghetti Bolognese"></td>
+                  <td><img src="SpaghettiBolognese.jpg" alt="Spaghetti Bolognese" width="100" height="100"></td>
+                  <td>Spaghetti</td>
+               </tr>
+         </table>
+      </details>
+   </div>
+
+   <div>
+      <details>
+         <summary>Drinks</summary>
+         <table>
+               <tr>
+                  <td><input type="checkbox" name="drink" value="Coke" required></td>
+                  <td><img src="CocaCola.jpg" alt="Coke" width="100" height="100"></td>
+                  <td>Coca-Cola</td>
+               </tr>
+               <tr>
+                  <td><input type="checkbox" name="drink" value="Sprite"></td>
+                  <td><img src="Sprite.jpg" alt="Sprite" width="100" height="100"></td>
+                  <td>Sprite</td>
+               </tr>
+               <tr>
+                  <td><input type="checkbox" name="drink" value="Iced Lemon Tea"></td>
+                  <td><img src="IcedLemonTea.jpg" alt="Iced Lemon Tea" width="100" height="100"></td>
+                  <td>Lemon Tea</td>
+               </tr>
+               <tr>
+                  <td><input type="checkbox" name="drink" value="Water"></td>
+                  <td><img src="Water.jpg" alt="Water" width="100" height="100"></td>
+                  <td>Water</td>
+               </tr>
+         </table>
+      </details>
+   </div>
+
+   <div>
+      <details>
+         <summary>Sides</summary>
+         <table>
+               <tr>
+                  <td><input type="checkbox" name="side" value="Garlic Bread" required></td>
+                  <td><img src="GarlicBread.jpg" alt="Garlic Bread" width="100" height="100"></td>
+                  <td>Garlic Bread</td>
+               </tr>
+               <tr>
+                  <td><input type="checkbox" name="side" value="Onion Rings"></td>
+                  <td><img src="OnionRings.jpg" alt="Onion Rings" width="100" height="100"></td>
+                  <td>Onion Rings</td>
+               </tr>
+               <tr>
+                  <td><input type="checkbox" name="side" value="Mashed Potato"></td>
+                  <td><img src="MashedPotato.jpg" alt="Mashed Potato" width="100" height="100"></td>
+                  <td>Mashed Potato</td>
+               </tr>
+               <tr>
+                  <td><input type="checkbox" name="side" value="Coleslaw"></td>
+                  <td><img src="Coleslaw.jpg" alt="Coleslaw" width="100" height="100"></td>
+                  <td>Coleslaw</td>
+               </tr>
+         </table>
+      </details>
+   </div>
+</div>
+
+
+    <div class="row">
+    <div>
+            <label for="qty">Quantity:</label>
+            <input type="number" name="qty" id="qty" min="1" max="10" value="1">
+    </div>
+    <div>
+            <label for="pickup">Pickup / Delivery Date:</label>
+            <input type="date" name="pickup" id="pickup">
+    </div>
+    </div>
+            <label>Collection Method:</label>
+            <div class="radio-group">
+            <label><input type="radio" name="collection" value="Pickup" checked> Pickup</label>
+            <label><input type="radio" name="collection" value="Delivery"> Delivery</label>
+            </div>
+
+            <label for="notes">Special Requests:</label>
+            <textarea name="notes" id="notes" rows="4"></textarea>
+<table>
+    <tr>
+        <td><input type="submit" value="Place Order"></td>
+        <td><input type="reset" value="Clear Form"></td>
+    </tr>
+</table>
+
+        </form>
+
+        <hr>
+
+        <p><a href="OrderForm.html">Back to Home</a></p>
+    </div>
+</body>

@@ -1,0 +1,37 @@
+<!-- Author: Cheng Jin Rong, Admin No. 261126U -->
+<link rel="stylesheet" href="ColorStyle.css">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>W Foods - Feedback</title>
+</head>
+<body>
+    <div class="container">
+        <h1>W Food</h1>
+        <form action="thankyouforyourfeedback.html" method="get">
+            <label for="custname">Your Name:</label>
+            <input type="text" name="custname" id="custname" required>
+            
+    <div class="row">
+    <div> 
+            <label for="phone">Phone Number:</label>
+            <span>+65</span>
+            <input type="tel" name="phone" id="phone" required maxlength="8" title="Please enter a valid 8-digit Singapore number.">
+    </div>
+    <div>
+            <label for="email">E-mail:</label><br>
+            <input type="email" name="email" id="email" required placeholder="you@example.com">
+    </div>
+    </div>
+
+        <h2>Feedback</h2>
+            <label for="feedback"></label>
+            <textarea name="feedback" id="feedback" rows="4"></textarea>
+        <hr>
+
+<table>
+    <tr>
+        <td><input type="submit" value="Submit Feedback"></td>
+        <td><input type="reset" value="Clear Form"></td>
+    </tr>
+</table>
+</body>

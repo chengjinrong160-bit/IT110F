@@ -1,0 +1,214 @@
+/* Author: Cheng Jin Rong, Admin No. 261126U */
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('Banner.jpg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+h1, h2 {
+    color: #0E8B25;
+    margin-top: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.row > div {
+    flex: 1;
+    min-width: 200px;
+}
+
+.phone-box {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.radio-group {
+    margin-top: 10px;
+}
+
+.radio-group label {
+    display: inline-block;
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.menu-card {
+    background: #FFFFE0;
+    padding: 24px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    margin: 20px auto;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    margin-top: 20px;
+    background: #FFFFE0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 14px;
+    box-sizing: border-box;
+}
+
+.menu-section {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 10px;
+    padding-top: 14px;
+}
+
+.menu-section h2 {
+    margin: 0 0 10px;
+    font-size: 1.15rem;
+    text-align: center;
+    color: #b84a12;
+}
+
+.menu-section table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.menu-section td {
+    padding: 8px 6px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.menu-section td:nth-child(3) {
+    font-size: 1rem;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.menu-section img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+.menu-section td:nth-child(3) {
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+.menu-section input[type="number"] {
+    width: 60px;
+    padding: 5px;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+input[type="number"] {
+    width: 45px;
+    padding: 4px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+.form-actions {
+    margin-top: 20px;
+}
+
+input[type="submit"], 
+input[type="reset"] {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background: #e93313;
+}
+
+input[type="submit"]:hover {
+    background: #c12d0f;
+}
+
+input[type="reset"] {
+    background: #6c757d;
+    margin-left: 8px;
+}
+
+input[type="reset"]:hover {
+    background: #5a6268;
+}
+
+textarea {
+    width: 100%;
+    min-height: 140px;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: Arial, sans-serif;
+}
+
+hr {
+    margin: 25px 0;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+}
+
+td {
+text-align: center;
+padding: 8px;
+color: #000000;
+font-family: 'Roboto', cursive;
+}

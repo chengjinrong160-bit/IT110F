@@ -1,0 +1,111 @@
+/* Author: Cheng Jin Rong, Admin No. 261126U */
+        body {
+            font-family: Arial, sans-serif;
+            background: url('Banner.jpg.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 30px 15px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: #FFFFE0;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+
+        h1, h2 {
+            color: #0E8B25;
+            font-family: 'Roboto', cursive;
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+            font-weight: bold;
+        }
+
+        .row {
+            display: flex;
+            gap: 15px;
+        }
+
+        .row > div {
+            flex: 1;
+        }
+
+        .radio-group {
+            margin-top: 8px;
+        }
+
+        .radio-group label {
+            display: inline-block;
+            font-weight: normal;
+            margin-right: 15px;
+        }
+
+        input[type="submit"], 
+        input[type="reset"] {
+        padding: 10px 18px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+        }
+        
+        input[type="submit"] {
+            background: #e93313;
+        }
+
+        input[type="reset"] {
+            background: #6c757d;
+        }
+
+        hr {
+            margin: 25px 0;
+        }
+        input[type="submit"]:hover, button:hover {
+            background: #c12d0f;
+        }
+        input[type="reset"]:hover {
+            background: #5a6268;
+        }
+        input, select, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 6px;
+        border: 1px solid #000000;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 6px;
+        box-sizing: border-box;
+        }
+
+        td {
+        text-align: center;
+        padding: 8px;
+        color: #000000;
+        font-family: 'Roboto', cursive;
+        }
+
+        input[type="checkbox"] {width: auto;
+        }
+
+        input[type="number"] {
+        width: 40px;
+        }
+
+        .column h2 {
+        text-align: center;
+        }
+
+        table {
+        width: 100%;
+        table-layout: fixed;
+        }
