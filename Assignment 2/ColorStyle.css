@@ -13,13 +13,79 @@
         .container {
             max-width: 700px;
             margin: 0 auto;
-            background: #FFFFE0;
+            background-image: url('BackgroundDecalAIgenerated.jpeg');
             border-radius: 12px;
             box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
             padding: 30px;
         }
+        
+        nav {
+        width: 90%;
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 15px 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgb(21, 20, 20);
+        background: linear-gradient(to right, #0E8B25, #66c06a, #0E8B25);
+        box-shadow: 2px;
+        }
 
-        h1, h2 {
+        nav a {
+            color: rgb(255, 254, 254);
+            transition: background-color 0.3s ease, color 0.3s ease;
+            padding: 5px 10px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            font-family: Poppins, sans-serif;
+            font-weight: bold; 
+        }
+
+        nav a:hover {
+            color: #FFFFE0;
+            background-color: orange;
+        }
+
+        .navbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo {
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                gap: 25px;
+        }
+
+        .logo img { 
+            display: block;
+            border-radius: 10px;
+            width: 50%;
+            max-width: 100px;
+            margin-top: 10px;
+            height: auto;
+            justify-content: start;
+        }
+
+        h1 {
+            font-size: 28px;
+            background: linear-gradient(135deg, #2e7d32 0%, #66bb6a 100%);
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: 25px;
+            margin: 0;
+            color: white;
+            font-weight: 700;
+            box-shadow: 0 6px 20px rgba(46, 125, 50, 0.3);
+            letter-spacing: 0.5px;
+            text-align: center;
+        }
+
+
+        h2 {
             color: #0E8B25;
             font-family: 'Roboto', cursive;
         }
