@@ -1,0 +1,309 @@
+header{
+    background-color:#0E8B25;
+    color:white;
+    padding:20px;
+}
+.logo{
+    display:block;
+    margin:0 auto;
+    width:80px;
+    height:auto;
+}
+.header-text{
+    font-size:42px;
+    color:white;
+    margin:0;
+    letter-spacing:2px;
+    text-shadow:2px 2px 4px rgba(0,0,0,0.3);
+    display:inline-block;
+    background-color:#0a6b1c;
+    padding:10px 30px;
+    border-radius:15px;
+    color:white;
+    font-size:38px;
+}
+
+.logo{
+    width:80px;
+    height:auto;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: lightyellow;
+    margin:0;
+    text-align:center;
+}
+
+header{
+    background-color:#0E8B25;
+    color:white;
+    padding:20px;
+}
+
+nav{
+    background-color:#0E8B25;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    background-color:rgb(251, 147, 0);
+    color:#0E8B25;
+}
+
+.banner{
+    width:700px;
+    height:350px;
+    border-radius:10px;
+}
+
+table{
+    margin:auto;
+    border-spacing:25px;
+}
+
+.card{
+    background:rgb(250, 249, 248);
+    border:2px solid #0E8B25;
+    border-radius:10px;
+    padding:15px;
+    width:250px;
+}
+
+.card img{
+    width:220px;
+    height:150px;
+    border-radius:8px;
+}
+
+button{
+    background:#0E8B25;
+    color:white;
+    border:none;
+    padding:20px 30px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0a6b1c;
+}
+
+footer{
+    margin-top:40px;
+    background:#0E8B25;
+    color:white;
+    padding:15px;
+}
+
+
+h3{
+    color: rgb(212, 51, 51);
+}
+
+.logo{
+    position:absolute;
+    top:10px;
+    left:20px;
+    width: 100px;
+    height: auto;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: lightyellow;
+    margin:0;
+    text-align:center;
+}
+
+header{
+    background-color:#0E8B25;
+    color:white;
+    padding:20px;
+}
+
+nav{
+    background-color:#0E8B25;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    background-color:rgb(251, 147, 0);
+    color:#0E8B25;
+}
+
+.banner{
+    width:700px;
+    height:350px;
+    border-radius:10px;
+}
+
+table{
+    margin:auto;
+    border-spacing:25px;
+}
+
+.card{
+    background:rgb(250, 249, 248);
+    border:2px solid #0E8B25;
+    border-radius:10px;
+    padding:15px;
+    width:250px;
+}
+
+.card img{
+    width:220px;
+    height:150px;
+    border-radius:8px;
+}
+
+button{
+    background:#0E8B25;
+    color:white;
+    border:none;
+    padding:20px 30px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#e89c0f;
+}
+
+footer{
+    margin-top:40px;
+    background:#0E8B25;
+    color:white;
+    padding:15px;
+}
+
+
+h3{
+    color: rgb(212, 51, 51);
+}
+
+hr{
+    border: none;
+    height: 3px;
+    background-color: #000000;
+    width: 75%;
+    margin: 20px auto;
+}
+button.About-us {
+    background-color: #e9d83d;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.About-us:hover {
+    background-color: #d4b800;
+}
+
+/* ===========================
+   Responsive Design
+=========================== */
+
+/* Tablets */
+@media screen and (max-width: 768px){
+
+    .banner{
+        width:90%;
+        height:auto;
+    }
+
+    table{
+        width:100%;
+    }
+
+    .card{
+        width:90%;
+        margin:auto;
+    }
+
+    .card img{
+        width:100%;
+        height:auto;
+    }
+
+    nav a{
+        display:inline-block;
+        padding:10px;
+        font-size:16px;
+    }
+
+    .title{
+        font-size:32px;
+    }
+
+    .logo{
+        width:60px;
+    }
+}
+
+
+/* Phones */
+@media screen and (max-width: 600px){
+
+    header{
+        padding:15px;
+    }
+
+    .logo{
+        position:static;
+        display:block;
+        margin:0 auto 10px auto;
+        width:70px;
+    }
+
+    .title{
+        font-size:28px;
+    }
+
+    nav a{
+        display:block;
+        padding:12px;
+    }
+
+    table,
+    tr,
+    td{
+        display:block;
+        width:100%;
+    }
+
+    td{
+        padding:15px 0;
+    }
+
+    .card{
+        width:85%;
+        margin:15px auto;
+    }
+
+    .banner{
+        width:95%;
+        height:auto;
+    }
+
+    button{
+        width:80%;
+    }
+}
