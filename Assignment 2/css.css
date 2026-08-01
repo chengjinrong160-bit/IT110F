@@ -6,7 +6,7 @@
     height: 60px; 
 }
 body {
-  background-color:#FFFFE0;
+  background-image: url('BackgroundDecalAIgenerated.jpeg');
 }
 
 nav ul {
@@ -52,6 +52,15 @@ transition: 0.3s;
 
 .card h2 {
   margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #0E8B25;
+}
+
+textarea {
+  font-family: Arial, sans-serif;
 }
 
 .card p {
