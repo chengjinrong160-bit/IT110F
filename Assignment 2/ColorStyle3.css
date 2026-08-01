@@ -220,6 +220,10 @@ input[type="number"] {
     border-radius: 4px;
 }
 
+input[type="date"] {
+    text-align: center;
+}
+
 .form-actions {
     margin-top: 20px;
 }
