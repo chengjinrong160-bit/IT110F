@@ -231,6 +231,19 @@ input[type="reset"] {
     font-weight: bold;
 }
 
+.form-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.form-actions input[type="submit"],
+.form-actions input[type="reset"] {
+    flex: 1;
+    width: 100%;
+    padding: 12px 16px;
+}
+
 input[type="submit"] {
     background: #e93313;
 }

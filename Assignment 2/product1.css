@@ -76,7 +76,7 @@ table td {
     max-width:1200px;
     margin:30px auto;
     padding:25px;
-    background-image:url('BackgroundDecalAIgenerated.jpeg');
+    background-image:url(BackgroundDecalAIgenerated.jpeg);
     background-size:cover;
     border-radius:20px;
 }
@@ -90,7 +90,7 @@ table td {
     padding: 20px;
     background: transparent;
     border-radius: 0;
-    background-image: url('BackgroundDecalAIgenerated.jpeg');
+    background-image: url(BackgroundDecalAIgenerated.jpeg);
 }
 
 .section h2 {
@@ -249,16 +249,20 @@ nav a:hover {
     color: white;
 }
 
-footer p {
-    margin: 0;
-    font-size: 16px;
-    color: white;
-}
-
 footer {
     margin-top: 40px;
     background: #0E8B25;
     color: white;
     padding: 15px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    padding: 0;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    color: white;
     text-align: center;
 }
