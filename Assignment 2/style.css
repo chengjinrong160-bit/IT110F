@@ -45,21 +45,82 @@ header{
     padding:20px;
 }
 
+/* ===== Navigation Bar ===== */
+
 nav{
-    background-color:#0E8B25;
-    padding:12px;
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+    background: linear-gradient(to right, #0E8B25, #169C35);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 15px 0;
 }
 
 nav a{
-    color:white;
-    text-decoration:none;
-    padding:15px;
-    font-weight:bold;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+
+    padding: 10px 18px;
+    margin: 5px;
+
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
 
 nav a:hover{
-    background-color:rgb(251, 147, 0);
-    color:#0E8B25;
+    background-color:rgb(243, 144, 24);
+    color: #0E8B25;
+}
+
+nav a:active{
+    transform: scale(0.96);
+}
+
+nav{
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+    background: linear-gradient(to right, #0E8B25, #169C35);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 15px 0;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+
+    padding: 10px 18px;
+    margin: 5px;
+
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover{
+    background-color: rgb(251, 147, 0);
+    color: #0E8B25;
+}
+
+nav a:active{
+    transform: scale(0.96);
 }
 
 .banner{
