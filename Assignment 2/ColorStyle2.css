@@ -101,3 +101,11 @@
             border-radius: 10px;
             font-size: 1.1rem;
         }
+
+        footer {
+            margin-top:40px;
+            background:#0E8B25;
+            color:white;
+            padding:15px;
+            text-align: center;
+        }
