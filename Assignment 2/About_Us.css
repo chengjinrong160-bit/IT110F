@@ -1,17 +1,11 @@
 /*Flores Francis Xavier Guillen 261060F */
-        body {
+body {
             margin: 0;
             background-color :rgb(255, 253, 253);
-            background-image: url("Banner.jpg");
+            background-image: url("BackgroundDecalAIgenerated.jpeg");
             background-position: top center;
             background-attachment: fixed;}
-        /* Background */
-        main {
-                margin: 2.5% 5% 2.5% 5%;
-                background-color: #FFFFE0;
-                border-radius: 15px;
-                background-image: url("BackgroundDecalAIgenerated.jpeg");}
-        /* Navigation Bar */
+         /* Navigation Bar */
         nav {
             width: 90%;
             max-width: 800px;
@@ -19,7 +13,7 @@
             padding: 15px 20px;
             border-radius: 10px;
             box-shadow: 0 2px 4px rgb(21, 20, 20);
-            background: linear-gradient(to right, #0E8B25, #66c06a, #0E8B25);}
+            background: linear-gradient(45deg, #0E8B25, #66c06a, #0E8B25);}
 
         .navbox{
             display: flex;
@@ -43,16 +37,21 @@
         h1 {
             margin: 35px 0 10px 0; 
             padding: 5px 10px;
-            border-radius: 5px;
-
-            font-family: Playfair Display, sans-serif;
+            border-radius: 15px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
             color: #0E8B25;
-            font-size: 35px;}
-        
+            font-size: 40px;
+        transition: color 0.3s ease;}
+        /* Used for description text */
         h2 {
             margin: 0;
             font-family: Poppins, sans-serif;
-            color: rgb(240, 240, 240);}
+            color: rgb(240, 240, 240);
+            transition: color 0.3s ease;}
+        
+        h2:hover{
+            color: #FFFFE0}
+    
         /* Vision Section */
         .vision{
             display: flex;
@@ -63,20 +62,20 @@
             width: 70%;
             max-width: 1000px;}
         /* For Team Info & History */
-        .section, .section2{
+        .section{
             width: 90%;
-            max-width: 1200px;
-            margin: 50px auto;
+            max-width: 1400px;
+            margin: 60px auto;
             flex-wrap: wrap;
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 25px;}
         /* Team Info Image & History Image */
-        .section img, .section2 img{
-            border-radius: 10px;
+        .section img{
+            border-radius: 30px;
             width: 60%;
-            max-width: 500px;
+            max-width: 550px;
             margin-top: 40px;
             height: auto;
             transition: transform 0.3s ease, box-shadow 0.3s ease;}
@@ -87,7 +86,7 @@
         
         .text{
             min-width: 300px;
-            max-width: 500px;
+            max-width: 600px;
             display: flex;
             flex-direction: column;
             align-items: center;}
@@ -96,14 +95,15 @@
             display: flex;
             gap: 30px;
             justify-content: center;
-            align-items: center;}
+            align-items: center;
+            flex-wrap: wrap;}
         
         .logo{
-                text-align: center;
-                align-items: center;
-                justify-content: center;
-                display: flex;
-                gap: 25px;}
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            gap: 25px;}
         /* For the W Foods Logo */
         .logo img{ 
             display: block;
@@ -113,26 +113,30 @@
             margin-top: 10px;
             height: auto;
             justify-content: start;}
-       
+        /* For the "W Foods" Text */
         .logo h1{
             color: #FFFFE0;
-            background: linear-gradient(to right, #0E8B25, #66c06a);
+            background: linear-gradient(45deg, #0E8B25, #66c06a);
             border-radius: 10px;
             padding: 10px 20px;
             font-family:Georgia, 'Times New Roman', Times, serif}
         /* For the background of some of the text */
         .background{
-                background-color: #0E8B25;
-                border-radius: 10px;
-                padding: 15px 20px;
-                margin: auto auto 40px;
-                box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.5);}
+            background-color: #0E8B25;
+            border-radius: 20px;
+            padding: 15px 20px;
+            margin: auto auto 40px;
+            box-shadow: 0 4px 8px rgb(21, 20, 20, 0.5);
+            transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;}
+        .background:hover{
+            transform: scale(1.02);
+            box-shadow: 4px 4px 10px rgb(21, 20, 20, 0.75);}
         /* Copied from the Homepage with changes made to fit */
         footer{
                 background:#0E8B25;
-                border-radius: 10px;
                 color:white;
-                padding:1%;
+                padding: 1%;
                 text-align: center;
                 margin: 0;}
+        
         
