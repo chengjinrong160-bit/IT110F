@@ -36,7 +36,8 @@ header h1{
     padding: 12px 24px;
     border-radius: 25px;
     margin: 20px 0 32px;
-    color: white;
+    color: #FFFFE0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
     box-shadow: 0 6px 20px rgba(46, 125, 50, 0.3);
     letter-spacing: 0.5px;
