@@ -2,11 +2,11 @@
         body {
             margin: 0;
             background-color :rgb(255, 253, 253);
-            background-image: url("Banner.jpg.jpeg");
+            background-image: url("Banner.jpg");
             background-position: top center;
             background-attachment: fixed;}
         /* Background */
-        main{
+        main {
                 margin: 2.5% 5% 2.5% 5%;
                 background-color: #FFFFE0;
                 border-radius: 15px;
@@ -62,35 +62,31 @@
             margin: 20px auto;
             width: 70%;
             max-width: 1000px;}
-        /* For Team Info */
-        .section{
-            margin-left: 15%;
+        /* For Team Info & History */
+        .section, .section2{
+            width: 90%;
+            max-width: 1200px;
+            margin: 50px auto;
+            flex-wrap: wrap;
             display: flex;
+            justify-content: center;
             align-items: center;
-            gap: 50px;}
-        /* For History */
-        .section2{
-            margin-left: 15%;
-            display: flex;
-            align-items: center;
-            gap: 50px;}
-        /* Team Info Image */
-        .section img{
-            border-radius: 6px;
+            gap: 25px;}
+        /* Team Info Image & History Image */
+        .section img, .section2 img{
+            border-radius: 10px;
             width: 60%;
-            max-width: 600px;
+            max-width: 500px;
             margin-top: 40px;
-            height: auto;}
-        /* History Image */
-        .section2 img{
-            border-radius: 6px;
-            width: 60%;
-            max-width: 600px;
-            margin-top: 40px;
-            height: auto;}
+            height: auto;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;}
+        /* Hover over Images */
+            .section img:hover, .section2 img:hover{
+            transform: scale(1.03);
+            box-shadow: 0 4px 8px rgb(21, 20, 20);}
         
         .text{
-            width: 50%;
+            min-width: 300px;
             max-width: 500px;
             display: flex;
             flex-direction: column;
