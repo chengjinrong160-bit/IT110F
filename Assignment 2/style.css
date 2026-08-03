@@ -26,7 +26,7 @@ header{
     z-index:10;
 }
 
-.header-text{
+.header-text {
    color: #FFFFE0;
             background: linear-gradient(to right, #0E8B25, #66c06a);
             border-radius: 5px;

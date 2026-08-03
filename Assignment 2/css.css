@@ -3,44 +3,65 @@
     position: absolute;
     top: 10px;
     left: 20px;
-    width: 75px; 
-    height: 60px; 
+    width: 100px; 
+    height: 100px; 
 }
 body {
   background-image: url('BackgroundDecalAIgenerated.jpeg');
 }
-
 nav ul {
-list-style-type: none;
-background-color: #0E8B25;
-padding: 10px;
-display: flex;              
+  list-style: none;      
+  margin: 0;
+  padding: 0;
+  display: flex;        
   justify-content: center; 
+  gap: 20px;            
 }
-nav li { display: inline-block; }
 
-nav a {
-color: white;
-padding: 8px 16px;
-text-decoration: none;
+nav li {
+  display: inline; /* optional when using flex */
 }
-table { border-collapse: collapse; }
-th, td { border: 1px solid #444;
-padding: 8px; }
-body { font-family: Arial; }
-nav a:hover {
-background: #F2A33C;
-}
-.card:hover {
-box-shadow: 6px 6px
-14px #999;
-transition: 0.3s;
+
+nav {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 15px 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgb(21, 20, 20);
+            background: linear-gradient(to right, #0E8B25, #66c06a, #0E8B25);}
+
+        .navbox{
+            display: flex;
+            justify-content: center;
+            align-items: center;}
+        
+        nav a {
+            color: rgb(255, 254, 254);
+            transition: background-color 0.3s ease, color 0.3s ease;
+            padding: 5px 10px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            font-family: Poppins, sans-serif;
+            font-weight: bold; }
+        /* Button Hover */
+        nav a:hover {
+            color: #FFFFE0;
+            background-color: orange;}
+            nav ul {
+  flex-wrap: wrap;
 }
 .contact-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columns */
   gap: 20px;
   padding: 20px;
+}
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 .card {
@@ -88,9 +109,20 @@ form {
   gap: 10px;            
   flex-wrap: wrap;       
 }
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
 .faq-columns {
     display: flex;
     gap: 30px;
+}
+@media (max-width: 768px) {
+  .faq-columns {
+    flex-direction: column;
+  }
 }
 
 .column {
@@ -99,4 +131,22 @@ form {
 
 .column details {
     margin-bottom: 10px;
+}
+.title-card {
+  display: inline-block;
+  background-color: #0E8B25;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.title-card{
+            color: #FFFFE0;
+            background: linear-gradient(to right, #0E8B25, #66c06a);
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-family:Georgia, 'Times New Roman', Times, serif}
+            textarea {
+  width: 90%;
+  max-width: 500px;
 }
