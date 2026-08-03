@@ -70,6 +70,15 @@
             justify-content: start;
         }
 
+        .logo h1 {
+        color: #FFFFE0;
+        background: linear-gradient(to right, #0E8B25, #66c06a);
+        border-radius: 10px;
+        padding: 10px 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif
+        }
+
+
         h1 {
             font-size: 28px;
             background: linear-gradient(135deg, #2e7d32 0%, #66bb6a 100%);
